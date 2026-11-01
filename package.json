@@ -1,0 +1,8 @@
+{
+  "name": "gutar-gu-chat-app",
+  "version": "1.0.0",
+  "description": "1-on-1 Link-Based Chat Application",
+  "scripts": {
+    "start": "cd \"Gutar GU/chat-app\" && .\\venv\\Scripts\\uvicorn main:app --reload --host 0.0.0.0 --port 8000"
+  }
+}

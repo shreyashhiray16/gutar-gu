@@ -1,0 +1,9 @@
+:80 {
+    reverse_proxy web:8000
+}
+
+# Example domain with automatic Let's Encrypt TLS:
+# your-domain.com {
+#     reverse_proxy web:8000
+# }
+
